@@ -1,4 +1,4 @@
 Rails.application.routes.draw do
-  resources 'cars#index'
+  root 'cars#index'
   resources :cars
 end
